@@ -1,0 +1,109 @@
+:root {
+  --paleBlue: hsl(225, 100%, 94%);
+  --brightBlue: hsl(245, 75%, 52%);
+  --veryPaleBlue: hsl(225, 100%, 98%);
+  --desaturatedBlue: hsl(224, 23%, 55%);
+  --darkBlue: hsl(223, 47%, 23%);
+  --white: #fff;
+  --lightBlue: #766cf1;
+  --black: #000000;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif;
+}
+body {
+  background: var(--veryPaleBlue);
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: center -270px;
+  background-size: cover;
+}
+.main {
+  width: 450px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background: var(--white);
+  border-radius: 25px;
+  box-shadow: 0 0 17px -6px var(--desaturatedBlue);
+}
+.banner img {
+  border-radius: 25px 25px 0 0;
+}
+section {
+  padding: 40px;
+  text-align: center;
+}
+.summary h1 {
+  font-weight: 900;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.summary p {
+  color: var(--desaturatedBlue);
+  width: 350px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 500;
+}
+.plan_info {
+  display: flex;
+  justify-content: space-between;
+  background: var(--veryPaleBlue);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
+.plan_price {
+  text-align: left;
+}
+.plan_price p {
+  font-weight: 900;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.plan_price span {
+  margin-top: 5px;
+  color: var(--desaturatedBlue);
+  font-size: 18px;
+  font-weight: 600;
+}
+.plan_change {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.plan_change a {
+  font-weight: 700;
+}
+.plan_change a:hover {
+  color: var(--lightBlue);
+}
+.btn {
+  margin-bottom: 50px;
+}
+.btn a {
+  padding: 18px 107px;
+  border-radius: 10px;
+  background: var(--brightBlue);
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 700;
+  box-shadow: 0 7px 12px -5px var(--brightBlue);
+}
+.btn a:hover {
+  background: var(--lightBlue);
+  color: var(--white);
+  box-shadow: 0 7px 12px -5px var(--lightBlue);
+}
+.footer_section a {
+  color: var(--desaturatedBlue);
+  text-decoration: none;
+  font-weight: 700;
+}
+.footer_section a:hover {
+  color: var(--black);
+}

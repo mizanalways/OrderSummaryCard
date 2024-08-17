@@ -1,0 +1,15 @@
+@media only screen and (max-width: 450px) {
+  .main {
+    width: 90%;
+    margin-top: 30px;
+  }
+  .banner img {
+    width: 100%;
+  }
+  .summary h1 {
+    margin-bottom: 10px;
+  }
+  .btn a {
+    padding: 18px 84px;
+  }
+}
